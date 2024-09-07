@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-nestjs-app
+    env: node
+    buildCommand: "npm install"
+    startCommand: "npm run start"
+    # Cấu hình khác nếu cần
